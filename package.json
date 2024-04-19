@@ -1,0 +1,15 @@
+{
+  "name": "napi-rs-sig-example",
+  "version": "1.0.0",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "scripts": {
+    "build": "napi build --platform"
+  },
+  "napi": {
+    "name": "napi-rs-sig-example"
+  },
+  "devDependencies": {
+    "@napi-rs/cli": "2.18.2"
+  }
+}
